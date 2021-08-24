@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Menu.MenuFragment">
+
+    <Button
+        android:id="@+id/chinese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_menu"
+        android:text="華語"
+        android:textColor="@color/white"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/english"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chinese"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btn_menu"
+        android:text="西洋"
+        android:textColor="@color/white"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/korean"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/english"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btn_menu"
+        android:text="韓語"
+        android:textColor="@color/white"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/japanese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/korean"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btn_menu"
+        android:text="日語"
+        android:textColor="@color/white"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/classical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/japanese"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btn_menu"
+        android:text="古典"
+        android:textColor="@color/white"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/electronic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/classical"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btn_menu"
+        android:text="電子"
+        android:textColor="@color/white"
+        android:textSize="36sp" />
+</RelativeLayout>
